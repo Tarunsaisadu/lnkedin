@@ -1,0 +1,44 @@
+#navbarer {
+  font-size: 12px;
+}
+
+.Links-modal a {
+  color: black;
+  font-weight: bold;
+}
+span {
+  font-size: 12px;
+}
+table,
+tr,
+td {
+  text-align: center;
+}
+
+#navbarImg {
+  border-radius: 50%;
+}
+
+.premium {
+  color: #9b6923 !important;
+}
+
+#navFontSize {
+  font-size: small !important;
+}
+
+#ember30 {
+  border-radius: 50%;
+}
+
+#dropdownName {
+  color: #16181B;
+}
+
+#dropdownName:hover {
+  text-decoration: none;
+}
+
+.dropdownButton {
+  width: 250px;
+}
