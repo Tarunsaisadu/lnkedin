@@ -68,7 +68,7 @@ const Feeds = () => {
           method: method[0],
           headers: {
             Authorization:
-              " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MThjZWFlZTVmMzRhZDAwMTUzOWYxNjEiLCJpYXQiOjE2MzY2MjUxMzQsImV4cCI6MTYzNzgzNDczNH0.NgYMfuCr8iggCo3A2apdsYI5C4c-9L3fNTAnEhj_v80",
+              " BearereyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjU1NmExYjI4YmMwYTAwMTVlZDEzZDIiLCJpYXQiOjE2NDk3NjQ4OTIsImV4cCI6MTY1MDk3NDQ5Mn0.v_eAVXn5Fn5oJqHV0TF4Li45-Pw50TuGu6_HakHb3Hc",
           },
         }
       );
