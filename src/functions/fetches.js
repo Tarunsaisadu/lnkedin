@@ -8,7 +8,7 @@ export const fetchdata = async () => {
         method: "GET",
         headers: {
           Authorization:
-            " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjU1NmExYjI4YmMwYTAwMTVlZDEzZDIiLCJpYXQiOjE2NDk3NjQ4OTIsImV4cCI6MTY1MDk3NDQ5Mn0.v_eAVXn5Fn5oJqHV0TF4Li45-Pw50TuGu6_HakHb3Hc",
+            " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFjZjk1NjJkNTI2MjAwMTViNmRjOWMiLCJpYXQiOjE2NTE1OTE2OTgsImV4cCI6MTY1MjgwMTI5OH0.PS6RA-T85XZ-ngGJdgYgX6zyvsxRE33yC6IXNKKyB9U",
         },
       }
     );
@@ -29,7 +29,7 @@ export const fetchMe = async () => {
         method: "GET",
         headers: {
           Authorization:
-            " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjU1NmExYjI4YmMwYTAwMTVlZDEzZDIiLCJpYXQiOjE2NDk3NjQ4OTIsImV4cCI6MTY1MDk3NDQ5Mn0.v_eAVXn5Fn5oJqHV0TF4Li45-Pw50TuGu6_HakHb3Hc",
+            " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFjZjk1NjJkNTI2MjAwMTViNmRjOWMiLCJpYXQiOjE2NTE1OTE2OTgsImV4cCI6MTY1MjgwMTI5OH0.PS6RA-T85XZ-ngGJdgYgX6zyvsxRE33yC6IXNKKyB9U",
         },
       }
     );
@@ -50,7 +50,7 @@ export const fetchUser = async (userId) => {
         method: "GET",
         headers: {
           Authorization:
-            " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjU1NmExYjI4YmMwYTAwMTVlZDEzZDIiLCJpYXQiOjE2NDk3NjQ4OTIsImV4cCI6MTY1MDk3NDQ5Mn0.v_eAVXn5Fn5oJqHV0TF4Li45-Pw50TuGu6_HakHb3Hc",
+            " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFjZjk1NjJkNTI2MjAwMTViNmRjOWMiLCJpYXQiOjE2NTE1OTE2OTgsImV4cCI6MTY1MjgwMTI5OH0.PS6RA-T85XZ-ngGJdgYgX6zyvsxRE33yC6IXNKKyB9U",
         },
       }
     );
@@ -73,7 +73,7 @@ export const fetchMyExperience = async () => {
         method: "GET",
         headers: {
           Authorization:
-            " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjU1NmExYjI4YmMwYTAwMTVlZDEzZDIiLCJpYXQiOjE2NDk3NjQ4OTIsImV4cCI6MTY1MDk3NDQ5Mn0.v_eAVXn5Fn5oJqHV0TF4Li45-Pw50TuGu6_HakHb3Hc",
+            " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFjZjk1NjJkNTI2MjAwMTViNmRjOWMiLCJpYXQiOjE2NTE1OTE2OTgsImV4cCI6MTY1MjgwMTI5OH0.PS6RA-T85XZ-ngGJdgYgX6zyvsxRE33yC6IXNKKyB9U",
         },
       }
     );
@@ -94,7 +94,7 @@ export const fetchExperiences = async (userId) => {
         method: "GET",
         headers: {
           Authorization:
-            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjU1NmExYjI4YmMwYTAwMTVlZDEzZDIiLCJpYXQiOjE2NDk3NjQ4OTIsImV4cCI6MTY1MDk3NDQ5Mn0.v_eAVXn5Fn5oJqHV0TF4Li45-Pw50TuGu6_HakHb3Hc",
+            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFjZjk1NjJkNTI2MjAwMTViNmRjOWMiLCJpYXQiOjE2NTE1OTE2OTgsImV4cCI6MTY1MjgwMTI5OH0.PS6RA-T85XZ-ngGJdgYgX6zyvsxRE33yC6IXNKKyB9U",
         },
       }
     );
@@ -115,7 +115,7 @@ export const fetchExperience = async (userId, experienceId) => {
         method: "GET",
         headers: {
           Authorization:
-            " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjU1NmExYjI4YmMwYTAwMTVlZDEzZDIiLCJpYXQiOjE2NDk3NjQ4OTIsImV4cCI6MTY1MDk3NDQ5Mn0.v_eAVXn5Fn5oJqHV0TF4Li45-Pw50TuGu6_HakHb3Hc",
+            " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFjZjk1NjJkNTI2MjAwMTViNmRjOWMiLCJpYXQiOjE2NTE1OTE2OTgsImV4cCI6MTY1MjgwMTI5OH0.PS6RA-T85XZ-ngGJdgYgX6zyvsxRE33yC6IXNKKyB9U",
         },
       }
     );

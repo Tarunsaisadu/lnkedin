@@ -68,7 +68,7 @@ const Feeds = () => {
           method: method[0],
           headers: {
             Authorization:
-              " BearereyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjU1NmExYjI4YmMwYTAwMTVlZDEzZDIiLCJpYXQiOjE2NDk3NjQ4OTIsImV4cCI6MTY1MDk3NDQ5Mn0.v_eAVXn5Fn5oJqHV0TF4Li45-Pw50TuGu6_HakHb3Hc",
+              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjU1NmExYjI4YmMwYTAwMTVlZDEzZDIiLCJpYXQiOjE2NDk3NjQ4OTIsImV4cCI6MTY1MDk3NDQ5Mn0.v_eAVXn5Fn5oJqHV0TF4Li45-Pw50TuGu6_HakHb3Hc",
           },
         }
       );
@@ -146,7 +146,7 @@ const Feeds = () => {
         headers: {
           // "Content-Type": "multipart/form-data",
           Authorization:
-            " Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MThjZWFlZTVmMzRhZDAwMTUzOWYxNjEiLCJpYXQiOjE2MzY2MjUxMzQsImV4cCI6MTYzNzgzNDczNH0.NgYMfuCr8iggCo3A2apdsYI5C4c-9L3fNTAnEhj_v80",
+            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFjZjk1NjJkNTI2MjAwMTViNmRjOWMiLCJpYXQiOjE2NTE1OTE2OTgsImV4cCI6MTY1MjgwMTI5OH0.PS6RA-T85XZ-ngGJdgYgX6zyvsxRE33yC6IXNKKyB9U",
         },
       });
       console.log(data);
