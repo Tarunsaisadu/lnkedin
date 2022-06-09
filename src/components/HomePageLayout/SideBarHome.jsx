@@ -3,20 +3,22 @@ import { Card, ListGroup, ListGroupItem } from "react-bootstrap";
 import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { fetchdata, fetchMe, fetchUser } from "../../functions/fetches";
-import {
-  FaHashtag,
-  FaUsers,
-  FaCalendarWeek,
-} from "react-icons/fa";
+import { FaHashtag, FaUsers, FaCalendarWeek } from "react-icons/fa";
 import "./SideBarHome.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faBookmark, faCalendarWeek, faHashtag, faUsers } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowRight,
+  faBookmark,
+  faCalendarWeek,
+  faHashtag,
+  faUsers,
+} from "@fortawesome/free-solid-svg-icons";
 
 export default function SideBarHome() {
   const [profileData, setProfileData] = useState({});
   let { id } = useParams();
 
-  console.log(profileData)
+  console.log(profileData);
 
   useEffect(async () => {
     let data;
@@ -31,7 +33,11 @@ export default function SideBarHome() {
 
   return (
     <div className="d-flex flex-column align-items-center mr-4" id="sidebardiv">
-      <Card style={{ width: "15rem" }} id="leftSidebar" className="mb-2 border makeItStick">
+      <Card
+        style={{ width: "15rem" }}
+        id="leftSidebar"
+        className="mb-2 border makeItStick"
+      >
         <Card.Img
           id="sidebarCoverImg"
           className="mb-3"
@@ -53,7 +59,11 @@ export default function SideBarHome() {
             src={profileData.image}
           />
           <Card.Text className="text-center">
-            <span style={{ 'font-size': '16px' }}><strong>{profileData.name} {profileData.surname}</strong></span>
+            <span style={{ "font-size": "16px" }}>
+              <strong>
+                {profileData.name} {profileData.surname}
+              </strong>
+            </span>
             <br />
             <span className="text-muted followers">{profileData.title}</span>
           </Card.Text>
@@ -61,26 +71,32 @@ export default function SideBarHome() {
         <ListGroup className="list-group-flush">
           <ListGroupItem id="userdetails">
             Who viewed your profile{" "}
-            <span style={{ 'margin-left': '30px' }}>
+            <span style={{ "margin-left": "30px" }}>
               <a href="#">54</a>
             </span>
             {/* <Link to={`/posts/${profileData.user}/${profileData._id}`}> */}
             <br /> Views of your post{" "}
-            <span style={{ 'margin-left': '60px' }}>
+            <span style={{ "margin-left": "60px" }}>
               <a href="#">925</a>
             </span>
             {/* </Link> */}
           </ListGroupItem>
           <ListGroupItem id="userdetails">
-            <span className="text-muted">Access exclusive tools & insights</span>
+            <span className="text-muted">
+              Access exclusive tools & insights
+            </span>
             <br />
             <span> 🟨</span>
             <span className="pl-2">
               <strong>Retry Premium Free</strong>
             </span>
           </ListGroupItem>
-          <ListGroupItem id="userdetails" id="myItems">
-            <span className="text-muted"><strong><FontAwesomeIcon icon={faBookmark} /> My items</strong></span>
+          <ListGroupItem id="userdetails">
+            <span className="text-muted">
+              <strong>
+                <FontAwesomeIcon icon={faBookmark} /> My items
+              </strong>
+            </span>
           </ListGroupItem>
         </ListGroup>
       </Card>
@@ -89,30 +105,58 @@ export default function SideBarHome() {
       <Card id="leftSidebar" style={{ width: "15rem" }}>
         <Card.Body>
           <Card.Text>
-            <span><strong>Recent</strong></span>
+            <span>
+              <strong>Recent</strong>
+            </span>
             <br />
-            <span className="text-muted"><FontAwesomeIcon icon={faUsers} /> Germany's Virtual Recruiting</span>
+            <span className="text-muted">
+              <FontAwesomeIcon icon={faUsers} /> Germany's Virtual Recruiting
+            </span>
             <br />
-            <span className="text-muted"><FontAwesomeIcon icon={faCalendarWeek} /> Web Design and Development...</span>
+            <span className="text-muted">
+              <FontAwesomeIcon icon={faCalendarWeek} /> Web Design and
+              Development...
+            </span>
             <br />
           </Card.Text>
           <Card.Text>
-            <span><a href=""><strong>Groups</strong></a></span>
+            <span>
+              <a href="">
+                <strong>Groups</strong>
+              </a>
+            </span>
             <br />
-            <span className="text-muted"><FontAwesomeIcon icon={faUsers} /> Web Design and Developmen...</span>
+            <span className="text-muted">
+              <FontAwesomeIcon icon={faUsers} /> Web Design and Developmen...
+            </span>
             <br />
           </Card.Text>
           <Card.Text>
-            <span><a href=""><strong>Events</strong></a></span>
+            <span>
+              <a href="">
+                <strong>Events</strong>
+              </a>
+            </span>
             <br />
-            <span className="text-muted"><FontAwesomeIcon icon={faUsers} /> Germany's Virtual Recruiting ...</span>
+            <span className="text-muted">
+              <FontAwesomeIcon icon={faUsers} /> Germany's Virtual Recruiting
+              ...
+            </span>
           </Card.Text>
           <Card.Text>
-            <span><a href=""><strong>Followed Hashtags</strong></a></span>
+            <span>
+              <a href="">
+                <strong>Followed Hashtags</strong>
+              </a>
+            </span>
             <br />
-            <span className="text-muted"><FontAwesomeIcon icon={faHashtag} /> Job Seekers</span>
+            <span className="text-muted">
+              <FontAwesomeIcon icon={faHashtag} /> Job Seekers
+            </span>
             <br />
-            <span className="text-muted"><FontAwesomeIcon icon={faHashtag} /> ReactJS</span>
+            <span className="text-muted">
+              <FontAwesomeIcon icon={faHashtag} /> ReactJS
+            </span>
           </Card.Text>
         </Card.Body>
       </Card>
